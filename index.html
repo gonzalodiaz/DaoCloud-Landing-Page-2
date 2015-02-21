@@ -20,8 +20,8 @@
         <meta property="og:site_name" content="DaoCloud: Social Self-Care Network">
         <meta property="og:title" content="DaoCloud: Social Self-Care Network">
         <meta property="og:description" content="Connecting community with self-care.">
-        <meta property="og:url" content="http:// beta.daocloud.com/signin">
-        <meta property="og:image" content="/img/dao_logo.png">
+        <meta property="og:url" content="http://beta.daocloud.com/signin">
+        <meta property="og:image" content="images/dao_logo.png">
         <meta property="og:type" content="website">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -78,7 +78,6 @@
                                 <h3 class="sec-subtitle"> Find &amp; share trusted resources that can improve your health </h3>
                                 <buttons class="btn"><a class="btn-gh" href="https://beta.daocloud.com/signup">Join for Free</a></buttons> 
                                 <h4><a href="professionals">Explore features for wellness professionals</a></h4>
-                               
                             </div>
                        </div>  
             </div>
@@ -212,34 +211,6 @@
 
         <!--Bootstrap-->
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-
-        <!--Accordion-->
-        <script>
-        $(document).ready(function() {
-            function close_accordion_section() {
-                $('.accordion .accordion-section-title').removeClass('active');
-                $('.accordion .accordion-section-content').slideUp(300).removeClass('open');
-            }
-     
-            $('.accordion-section-title').click(function(e) {
-                // Grab current anchor value
-                var currentAttrValue = $(this).attr('href');
-     
-                if($(e.target).is('.active')) {
-                    close_accordion_section();
-                }else {
-                    close_accordion_section();
-     
-                    // Add active class to section title
-                    $(this).addClass('active');
-                    // Open up the hidden content panel
-                    $('.accordion ' + currentAttrValue).slideDown(300).addClass('open'); 
-                }
-     
-                e.preventDefault();
-            });
-        });
-        </script>
 
         <!--Mailchimp-->
         <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'>
