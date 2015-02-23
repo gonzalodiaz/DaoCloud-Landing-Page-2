@@ -2324,7 +2324,7 @@ p, strong
   line-height: 26px;
 }
 h1, h2, h3, h4, h5, h6 {
-  margin: 10px 0px;
+  margin: 10px 0px 20px;
 }
 
 h1 a, h1 a:hover, h1 a:visited, h2 a, h2 a:hover, h2 a:visited, h3 a, h3 a:hover, h3 a:visited, h4 a, h4 a:hover, h4 a:visited, h5 a, h5 a:hover, h5 a:visited, h6 a, h6 a:hover, h6 a:visited {
@@ -2344,7 +2344,7 @@ h2 {
 }
 
 .subtitle, h3 {
-  font-size: 26px;
+  font-size: 22px;
   font-weight: normal;
   line-height: 125%;
 }
@@ -3559,8 +3559,7 @@ header.navbar {
   margin: 45px auto;
 }
 
-#pricing-row2-section .rscrs-row {
-  padding-bottom: 35px;
+#pricing-row2-section {
   text-align: center;
 }
 
