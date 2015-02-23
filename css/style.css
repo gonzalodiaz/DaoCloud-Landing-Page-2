@@ -2702,14 +2702,12 @@ header.navbar {
     margin: 0 auto;
     padding: 10px;
     text-align: center;
-    top: 15px; 
     transition: none;
-    width: 50%;
   }
 
-  .navbar-fixed-top .navbar-collapse {
+/*  .navbar-fixed-top .navbar-collapse {
     padding-bottom: 40px;
-  }
+  }*/
   
   header .container {
     padding: 0px 15px;
