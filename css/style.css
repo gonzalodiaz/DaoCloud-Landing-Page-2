@@ -2252,6 +2252,30 @@ tbody.collapse.in {
 .block {
   display: block !important; }
 
+@media (max-width:768px) {
+  .line-xs {
+    display:block;
+  }
+}  
+
+@media (min-width:768px) and (max-width:992px) {
+  .line-sm {
+    display:block;
+  }
+}  
+
+@media (min-width:992px) and (max-width:1200px) {
+  .line-md {
+    display:block;
+  }
+}  
+
+@media (min-width:1200px) {
+  .line-lg {
+    display:block;
+  }
+}  
+
 /***************************************************************** */
 /***************** UNCOMMENT TO SEE GRID LAYOUT ****************** */
 /* .container
@@ -2300,7 +2324,7 @@ p, strong
   line-height: 26px;
 }
 h1, h2, h3, h4, h5, h6 {
-  margin: 10px 0px;
+  margin: 10px 0px 20px;
 }
 
 h1 a, h1 a:hover, h1 a:visited, h2 a, h2 a:hover, h2 a:visited, h3 a, h3 a:hover, h3 a:visited, h4 a, h4 a:hover, h4 a:visited, h5 a, h5 a:hover, h5 a:visited, h6 a, h6 a:hover, h6 a:visited {
@@ -2320,7 +2344,7 @@ h2 {
 }
 
 .subtitle, h3 {
-  font-size: 26px;
+  font-size: 22px;
   font-weight: normal;
   line-height: 125%;
 }
@@ -3525,64 +3549,21 @@ header.navbar {
     width: 100%;
     height: 100%;
 }
-#pricing-row2-section .col-xs-12 > h1 {
-  margin: 45px auto;
-}
 
 #pricing-row3-section .inner-container {
   width: 57vw;
   margin: 0 auto;
 }
 
-.info-col {
-  width: 19vw;
-  float: left;
-}
-
-#pricing-row3-section .inner-container >div:first-child img {
-  padding-bottom: 4vw;
-  display: block;
-  width: 100%;  
-}
-
-#pricing-row3-section .inner-container >div:first-child img:last-child {
-  padding-bottom: 0px;
-	padding-bottom: 4vw;
-	display: block;
-	width: 100%;	
-}
-
-#pricing-row3-section .inner-container >div:first-child img:last-child {
-	padding-bottom: 0px;
-}
-
-.infog-txt
-{
-  padding-top: 2vw;
-  padding-bottom: 12vw;
-  font-size: 1.75vw;
-  text-align: left;
-}
-
-.arrowg {
-  padding-top: 5vw;
-}
-
-.arrowg img {
-  width: 23%; 
-  margin: 0 auto;
-  display: block;
-}
-
 .single-title {
   margin: 45px auto;
 }
 
-#pricing-row2-section #rscrs-row {
-  padding-bottom: 35px;
+#pricing-row2-section {
+  text-align: center;
 }
 
-#rscrs-row h1 {
+.rscrs-row h1 {
   font-size: 36px;
 }
 
@@ -3598,6 +3579,36 @@ header.navbar {
   margin: 35px auto 15px auto;
 }
 
+#pricing-row3-section #timeline {
+  text-align: center;
+}
+
+#pricing-row3-section .arrow-offset {
+  padding-right: 5vw;
+}
+
+#pricing-row3-section #timeline-head {
+  position:relative;
+  margin: 100px auto 0 auto;
+}
+
+#pricing-row3-section #timeline-head .milestone {
+  position:absolute;
+  bottom: 0;
+}
+
+#pricing-row3-section #timeline-head .milestone:nth-of-type(1) {
+  left: 0;
+}
+
+#pricing-row3-section #timeline-head .milestone:nth-of-type(2) {
+  left:33%;
+}
+
+#pricing-row3-section #timeline-head .milestone:nth-of-type(3) {
+  left: 66%;
+}
+
 #pricing-row3-section .reg-form {
   padding: 25px 0px;
   background-color: #DAEEFC;
@@ -3606,8 +3617,17 @@ header.navbar {
   margin: 25px 0 45px;
 }
 
+#pricing-row3-section .reg-form h3 {
+  padding-top: 20px;
+  padding-bottom: 0;
+}
+
+#pricing-row3-section .reg-form .frm-btn-con {
+  margin-top: 40px;
+}
+
 #pricing-row3-section .reg-form .form-control {
-  padding: 18px 12px 12px 18px !important;
+  padding: 14px 12px 12px 12px !important;
   border: 2px solid #0a3153;
   border-radius: 6px;
   font-size: 18px;
@@ -3622,168 +3642,45 @@ header.navbar {
 /***************** Pricing Page  Media Queries **************************/
 /************************************************************************/
 
-@media (min-width: 550px) {
+@media (min-width: 768px) {
+  #pricing-row3-section #timeline-head {
+    width: 74vw;
+  }
+
   #pricing-row3-section .inner-container {
     width: 51vw;
   }
-  
-  .info-col {
-    width: 17vw;
-  }
 
-  .infog-txt {
-    padding-bottom: 6vw;
+  #pricing-row3-section #timeline-head .milestone:nth-of-type(3) {
+    left: 66%;
+    padding-right: 8vw;
   }
 }
 
-@media (min-width: 550px) {
-  #pricing-row3-section .inner-container {
-		width: 51vw;
-	}
-	
-  .info-col {
-		width: 17vw;
-	}
-
-	.infog-txt {
-		padding-bottom: 6vw;
-	}
-}
-
-@media (min-width: 0px) and (max-width: 550px) {
+@media (min-width: 0px) and (max-width: 768px) {
   #pricing-row3-section .inner-container {
     width: 80vw;
     margin: 0 auto;
   }
 
-  .info-col {
-    width: 26.6vw;
-    float: left;
+  #pricing-row3-section .arrow-offset {
+    padding-right: 11vw;
+  }
+
+  #pricing-row3-section #timeline-head .milestone:nth-of-type(1) p {
+    padding-right: 20px;
+  }
+
+  #pricing-row3-section #timeline-head .milestone:nth-of-type(2) {
+    width:40%;
+    left:30%;
+  }
+
+  #pricing-row3-section #timeline-head .milestone:nth-of-type(3) {
+    width:40%;
   }
 }
 
-@media (min-width: 300px) and (max-width: 550px) {
-  .infog-txt {
-    font-size: 3vw;
-  }
-  
-  .arrowg {
-    padding-top: 5vw;
-  }
-  
-  .arrowg img {
-    width: 28%; 
-    margin: 0 auto;
-    display: block;
-  }
-
-  #pricing-row3-section .inner-container >div:first-child img {
-    padding-bottom: 12vw;
-  }  
-}
-
-@media (max-width: 300px) { 
-	.infog-txt {
-		font-size: 3vw;
-	}
-
-	.arrowg {
-		padding-top: 5vw;
-	}
-
-	.arrowg img {
-		width: 28%;	
-		margin: 0 auto;
-		display: block;
-	}
-	
-	#pricing-row3-section .inner-container >div:first-child img {
-		padding-bottom: 12vw;
-	}
-}
-
-@media (max-width: 300px)  {
-  .infog-txt {
-    font-size: 10px;
-  }
-}
-
-@media (min-width: 215px) and (max-width: 300px) {
-  .infog-txt {
-    font-size: 10px;
-  }
-}
-
-@media (min-width: 0px) and (max-width: 300px) {
-  #pricing-row3-section .inner-container {
-    width: 80vw;
-    margin: 0 auto;
-  }
-
-  #pricing-row3-section .inner-container >div:first-child img {
-    padding-bottom: 53vw; 
-  }
-
-  .arrowg {
-    padding-top: 5vw;
-  }
-
-  .arrowg img {
-    width: 56%; 
-  }
-
-  .infog-txt {
-    font-size: 5vw; 
-  }
-}
-
-@media (min-width: 170px) and (max-width: 215px) {
-  .arrowg img {
-    width: 56%; 
-  }
-
-	.arrowg {
-		padding-top: 5vw;
-	}
-
-  .arrowg img {
-		width: 56%;	
-	}
-
-	.infog-txt {
-		font-size: 5vw; 
-	}
-}
-
-@media (min-width: 170px) and (max-width: 215px) {
-	.arrowg img {
-		width: 56%;	
-	}
-
-	#pricing-row3-section .inner-container >div:first-child img
-	{
-		padding-bottom: 53vw;	
-	}
-}
-
-@media (min-width: 0px) and (max-width: 170px) {
-	.arrowg {
-		display: none;	
-	}
-
-	.info-col {
-		width: 65%;
-		margin: 0 auto;
-	}
-
-	.container-fluid {
-		width: 72% ;
-	}
-
-	#pricing-row3-section .row {
-		margin-left: 0px;		
-	}
-}
 
 /******************** About Section Styles ************************** */
 #about-row1-section h1
