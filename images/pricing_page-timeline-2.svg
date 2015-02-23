@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 833.6 42.1" enable-background="new 0 0 833.6 42.1" xml:space="preserve">
-<circle fill="#0A3153" cx="10" cy="133" r="9"/>
-<circle fill="#0A3153" cx="428" cy="133" r="9"/>
-<circle fill="#0A3153" cx="768.2" cy="133" r="9"/>
-<line fill="none" stroke="#0A3153" stroke-width="5" stroke-miterlimit="10" x1="10" y1="133" x2="824" y2="133"/>
-<polygon fill="#0A3153" points="822.6,144 833.6,133 822.6,122 "/>
-<path fill="none" stroke="#0A3153" stroke-width="2" stroke-miterlimit="10" d="M428.8,155c0,0-0.5,13.5,11.6,13.5
-	c12.1,0,150.3,0,150.3,0l11.8,11.2l12-11.2l139.1-0.1c0,0,14.1,1.1,14.1-13.2"/>
-<path fill="none" stroke="#0A3153" stroke-width="2" stroke-miterlimit="10" d="M10.2,12.7c0,0-0.5,13.5,11.6,13.5s395.6,0,395.6,0
-	l11.8,11.2l12-11.2l310.9-0.1c0,0,14.1,1.1,14.1-13.2"/>
+	 viewBox="0 0 846 41" enable-background="new 0 0 846 41" xml:space="preserve">
+<circle fill="#0A3153" cx="20.9" cy="116" r="9"/>
+<circle fill="#0A3153" cx="359.6" cy="116" r="9"/>
+<circle fill="#0A3153" cx="779.1" cy="116" r="9"/>
+<line fill="none" stroke="#0A3153" stroke-width="5" stroke-miterlimit="10" x1="20.9" y1="116" x2="834.9" y2="116"/>
+<polygon fill="#0A3153" points="833.5,127 844.5,116 833.5,105 "/>
+<path fill="none" stroke="#0A3153" stroke-width="2" stroke-miterlimit="10" d="M359.6,138c0,0-0.5,13.5,11.6,13.5
+	c12.1,0,185.3,0,185.3,0l11.8,11.2l12-11.2l189.2-0.1c0,0,14.1,1.1,14.1-13.2"/>
+<path fill="none" stroke="#0A3153" stroke-width="2" stroke-miterlimit="10" d="M20.9,7c0,0-0.5,13.5,11.6,13.5s354.6,0,354.6,0
+	l11.8,11.2l12-11.2l358.6-0.1c0,0,14.1,1.1,14.1-13.2"/>
 </svg>
