@@ -3616,8 +3616,11 @@ header.navbar {
   margin: 25px 0 45px;
 }
 
+#pricing-row3-section .reg-form h2 {
+  margin-bottom: 0;
+}
+
 #pricing-row3-section .reg-form h3 {
-  padding-top: 20px;
   padding-bottom: 0;
 }
 
