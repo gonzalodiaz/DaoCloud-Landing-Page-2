@@ -3639,6 +3639,10 @@ header.navbar {
   margin: 0 auto;
 }
 
+#pricing-row4-section .reg-form .form-control {
+  padding: 14px 12px 12px 12px !important;
+}
+
 
 /************************************************************************/
 /***************** Pricing Page  Media Queries **************************/
