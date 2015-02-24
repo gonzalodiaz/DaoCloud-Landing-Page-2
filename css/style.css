@@ -2699,7 +2699,7 @@ header.navbar {
     background-color: #0a3153;
     border: none;
     color: #fff;
-    margin: 0 auto;
+    margin: 20px auto 10px;
     padding: 10px;
     text-align: center;
     transition: none;
