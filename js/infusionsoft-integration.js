@@ -8,7 +8,7 @@ $(document).ready(function() {
     $.ajax({
       type: "POST",
       url:  "https://beta.daocloud.com/api/v1/regions", 
-      data: { firstName: firstname, lastName: lastname, email: email, phone: phone, region: region, personType: personType }
+      data: { firstName: firstname, lastName: lastname, email: email, phone: phone, region: region, personType: personType, leadSource: "website" }
     }).done(function(msg)
       {
         if(msg=='OK'){
