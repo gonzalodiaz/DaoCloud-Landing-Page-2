@@ -16,7 +16,9 @@ $(document).ready(function() {
     // Load JSON File
     function loadJSON(callback) {
         var xobj = new XMLHttpRequest();
-        xobj.overrideMimeType("application/json");
+        if(xobj.overrideMimeType) {
+            xobj.overrideMimeType("application/json");
+        }
         xobj.open('GET', '../js/regions.json', true);
         xobj.onreadystatechange = function() {
             if (xobj.readyState == 4 && xobj.status == "200") {
