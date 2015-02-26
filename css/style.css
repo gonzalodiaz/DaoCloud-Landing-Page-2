@@ -3008,8 +3008,6 @@ header.navbar {
 /* breakpoint just for the pro page header */
 @media (max-width: 600px) {
   #pro-row1-section {
-    background: url("../images/pro-page-modern.jpg") no-repeat;
-    background-size: cover;
     height: 300px;
   }
 
