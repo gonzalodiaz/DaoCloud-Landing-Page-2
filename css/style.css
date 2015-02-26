@@ -3718,6 +3718,11 @@ header.navbar {
 	width: 75%;
 	margin: 0 auto;
 }
+.team-row h3.dao-position {
+  font-size: 120%;
+  margin-top: -40px;
+  margin-bottom: 40px;
+}
 #about-content img
 {
 	border: 1px solid #0a3153;
