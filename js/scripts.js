@@ -16,7 +16,7 @@ $(document).ready(function() {
     // Load JSON File
     function loadJSON(callback) {
         var xobj = new XMLHttpRequest();
-        if(xobj.overrideMimeType) {
+        if (xobj.overrideMimeType) {
             xobj.overrideMimeType("application/json");
         }
         xobj.open('GET', '../js/regions.json', true);
@@ -38,12 +38,8 @@ $(document).ready(function() {
         // Parse JSON string into object
         var data = $.parseJSON(response);
 
-        console.log(data);
-
         regionTitle = data.daocloudRegionThresholds.regions[regionAbb] || 'local';
         regionThreshold = data.daocloudRegionThresholds.thresholds[regionAbb] || 'a minimum number of';
-
-        console.log(regionTitle);
 
         $('.regionTitle').html(regionTitle);
         $('.regionThreshold').html(regionThreshold);
