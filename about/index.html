@@ -1,230 +1,275 @@
 <!DOCTYPE html>
-    <head>
-        <title>DaoCloud</title>
 
-        <!-- General META -->
-        <meta charset="utf-8">
-        <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <meta name="viewport" content="width=device-width,initial-scale=1">
+<head>
+    <title>DaoCloud</title>
 
-        <!-- SEO META-->
-        <meta name="fragment" content="!">
+    <!-- General META -->
+    <meta charset="utf-8">
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
 
-        <!-- Semantic META -->
-        <meta name="keywords" content="Holistic health network, holistic health, health, wellness, optimal wellness, health optimization, optimal health, daocloud, reiki, yoga, acupuncture, acupuncturist, massage, massage therapist, therapist, chiropractor, chiropractic, naturopath, naturopathy, ND, Functional MD, personal trainer, personal training, fitness professional, fitness, natural medicine, meditation, mindfulness, self-care, self care, healing, food as medicine, behavioral medicine, e-health, e health, ehealth, health network, yoga instructor, yogi, physical therapist, physical therapy, craniosacral therapy, midwife, natural birth, doula, Pilates, electronic health">        
+    <!-- SEO META-->
+    <meta name="fragment" content="!">
 
-        <!-- Facebook META -->
-        <meta property="fb:app_id" content="666198436781043">
-        <meta property="og:site_name" content="DaoCloud">
-        <meta property="og:title" content="DaoCloud: Social Self-Care Network">
-        <meta property="og:description" content="Connecting community with self-care.">
-        <meta property="og:url" content="http://daocloud.com">
-        <meta property="og:image" content="../images/dao_logo.png">
-        <meta property="og:type" content="website">
-        <meta name="description" content="Connecting community with self-care.">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Semantic META -->
+    <meta name="keywords" content="Holistic health network, holistic health, health, wellness, optimal wellness, health optimization, optimal health, daocloud, reiki, yoga, acupuncture, acupuncturist, massage, massage therapist, therapist, chiropractor, chiropractic, naturopath, naturopathy, ND, Functional MD, personal trainer, personal training, fitness professional, fitness, natural medicine, meditation, mindfulness, self-care, self care, healing, food as medicine, behavioral medicine, e-health, e health, ehealth, health network, yoga instructor, yogi, physical therapist, physical therapy, craniosacral therapy, midwife, natural birth, doula, Pilates, electronic health">
 
-        <!--Favicon-->
-        <link rel="shortcut icon" type"image/x-icon" href="../images/daocloud-favicon.ico">
+    <!-- Facebook META -->
+    <meta property="fb:app_id" content="666198436781043">
+    <meta property="og:site_name" content="DaoCloud">
+    <meta property="og:title" content="DaoCloud: Social Self-Care Network">
+    <meta property="og:description" content="Connecting community with self-care.">
+    <meta property="og:url" content="http://daocloud.com">
+    <meta property="og:image" content="../images/dao_logo.png">
+    <meta property="og:type" content="website">
+    <meta name="description" content="Connecting community with self-care.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- CSS Imports -->
-        <link rel="stylesheet" href="../css/style.css">
-        <link href='//fonts.googleapis.com/css?family=Raleway:400,100,700,600' rel='stylesheet' type='text/css'>
+    <!--Favicon-->
+    <link rel="shortcut icon" type "image/x-icon" href="../images/daocloud-favicon.ico">
 
-        <!--jQuery-->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- CSS Imports -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link href='//fonts.googleapis.com/css?family=Raleway:400,100,700,600' rel='stylesheet' type='text/css'>
 
-        <!--Google Analytics Code, in head to capture partial page loads-->
-        <script>
-         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-         })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
-         ga('create', 'UA-45741411-1', 'auto');
-         ga('send', 'pageview');
-        </script>  
-    </head>
-    
-    <body>
+    <!--Google Analytics Code, in head to capture partial page loads-->
+    <script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-45741411-1', 'auto');
+    ga('send', 'pageview');
+    </script>
+</head>
+
+<body>
     <header class="navbar navbar-fixed-top navbar-default">
-      <div class="container">
-        <div class="navbar-header">
-          <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#daocload-nav" data-ng-click="toggleCollapsibleMenu()">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a href="http://daocloud.com" class="navbar-brand"><img alt="Daocloud Logo" src="../images/dao_logo.png"></a>
-        </div>
-        <nav id="daocload-nav" class="collapse navbar-collapse" collapse="!isCollapsed" role="navigation" style="height: 0px;">
-          <ul class="nav navbar-nav navbar-right">
-            <li><span><a href="../professionals">Wellness Professionals</a></span></li>
-            <li><span><a href="../about">About</a></span></li>
-            <li><a class="btn-wh" href="https://beta.daocloud.com/signup">Sign Up</a></li>
-          </ul>
-        </nav>
-      </div><!--//container-->
-    </header>
-       <div id="about-content" class="content-wrapper">
-        <section id="about-row1-section" class="section border-sec">
         <div class="container">
+            <div class="navbar-header">
+                <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#daocload-nav" data-ng-click="toggleCollapsibleMenu()">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="http://daocloud.com" class="navbar-brand"><img alt="Daocloud Logo" src="../images/dao_logo.png">
+                </a>
+            </div>
+            <nav id="daocload-nav" class="collapse navbar-collapse" collapse="!isCollapsed" role="navigation" style="height: 0px;">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><span><a href="../professionals">Wellness Professionals</a></span>
+                    </li>
+                    <li><span><a href="../about">About</a></span>
+                    </li>
+                    <li><a class="btn-wh" href="https://beta.daocloud.com/signup">Sign Up</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!--//container-->
+    </header>
+    <div id="about-content" class="content-wrapper">
+        <section id="about-row1-section" class="section border-sec">
+            <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                     	<h1>We Know the Greatest Wealth Is Health</h1>
-			    		<h3>Our core team has personal experience reversing chronic health conditions by focusing on diet and lifestyle improvements - using health professionals as our guides and teachers. We see that our experiences are a microcosm of a global shift, where healthcare is shifting towards self-care, and we designed DaoCloud to become the most trusted online resource that supports this shift. We believe DaoCloud will lower barriers to wellness by increasing people’s access to self-education. Our mission is to share and inspire wellness.</h3>
+                        <h1>We Know the Greatest Wealth Is Health</h1>
+                        <h3>Our core team has personal experience reversing chronic health conditions by focusing on diet and lifestyle improvements - using health professionals as our guides and teachers. We see that our experiences are a microcosm of a global shift, where healthcare is shifting towards self-care, and we designed DaoCloud to become the most trusted online resource that supports this shift. We believe DaoCloud will lower barriers to wellness by increasing people’s access to self-education. Our mission is to share and inspire wellness.</h3>
                     </div>
                 </div>
             </div>
         </section>
         <section id="about-row2-section" class="section border-sec">
-        <div class="container">
+            <div class="container">
                 <div class="row">
-                    <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 col-lg-10 col-md-10 col-sm-10 col-xs-10 center-block ">
-                            <h2>Leadership</h2>
-		  	  <div class="row">
-		   	 <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
-				 <div class="leader-thumb-img">
-					 <img class="img-responsive" src="../images/about_eric.png">
-				</div>
-				<h3 class="dao-position">Eric Green<br>
-				Co-founder &amp; CEO
-				</h3>
-				<p class="center-text">I used food and behavior as medicine, and developed a holistic approach to self-care to reverse Crohn's disease. I applied my passion for social entrepreneurship, wellness, and technology to attract the world-class pioneers that we now call Team DaoCloud. I am a fervent optimist.</p>
-		   </div>
-		   <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
-				 <div class="leader-thumb-img">
-					 <img class="img-responsive" src="../images/about_max.png">
-		  	       </div>
-				<h3 class="dao-position">
-					 Max Coleman <br>
-					 Co-founder &amp; CMO
-				</h3>
-				<p class="center-text">I developed a passion for wellness after learning to reverse myofascial tension through yoga, nutrition, and holistic therapies. I studied Philosophy at the University of Maryland while excelling in direct sales at Vector Marketing. I am a wellness ambassador and steadfast influencer.</p>
-		   </div>
-		   	<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
-				 <div class="leader-thumb-img">
-					 <img class="img-responsive" src="../images/about_john.png">
-				</div>
-				<h3 class="dao-position">John Serrao<br>CTO</h3>
-				<p class="center-text">Wellness was brought into my world by my cousin Patti, who first showed me that I had a dairy allergy. This sparked my passion in wellness, which I've combined with over ten years of experience building large-scale web projects and user-focused applications for the wellness industry. I'm guiding DaoCloud's application to success.</p>
-		   		</div>
-                    	</div>
+                    <div class="team-row  col-lg-10 col-md-10 col-sm-10 col-xs-10 col-lg-10 col-md-10 col-sm-10 col-xs-10 center-block ">
+                        <h2>Leadership</h2>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                                <div class="leader-thumb-img">
+                                    <img class="img-responsive" src="../images/about_eric.png">
+                                </div>
+                                <h3 class="dao-name">Eric Green</h3>
+                                <h3 class="dao-position">Co-founder &amp; CEO</h3>
+                                <p class="center-text">I used food and behavior as medicine, and developed a holistic approach to self-care to reverse Crohn's disease. I applied my passion for social entrepreneurship, wellness, and technology to attract the world-class pioneers that we now call Team DaoCloud. I am a fervent optimist.</p>
+                            </div>
+                            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                                <div class="leader-thumb-img">
+                                    <img class="img-responsive" src="../images/about_max.png">
+                                </div>
+                                <h3 class="dao-name">
+					 Max Coleman</h3>
+                                <h3 class="dao-position">Co-founder &amp; CMO</h3>
+                                <p class="center-text">I developed a passion for wellness after learning to reverse myofascial tension through yoga, nutrition, and holistic therapies. I studied Philosophy at the University of Maryland while excelling in direct sales at Vector Marketing. I am a wellness ambassador and steadfast influencer.</p>
+                            </div>
+                            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                                <div class="leader-thumb-img">
+                                    <img class="img-responsive" src="../images/about_john.png">
+                                </div>
+                                <h3 class="dao-name">John Serrao</h3>
+                                <h3 class="dao-position">CTO</h3>
+                                <p class="center-text">Wellness was brought into my world by my cousin Patti, who first showed me that I had a dairy allergy. This sparked my passion in wellness, which I've combined with over ten years of experience building large-scale web projects and user-focused applications for the wellness industry. I'm guiding DaoCloud's application to success.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-    </div>
-    </section>
+        </section>
         <section id="about-row3-section" class="section border-sec">
-        <div class="container">
+            <div class="container">
                 <div class="row">
-			<div class=" team-row col-lg-9 col-md-9 col-sm-9 col-xs-9 center-block">
-				<div class="row">
-					<h2>Team</h2>
-				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
- 					<div class="team-thumb-img">
-						<img class="img-responsive" src="../images/about_gonzalo.png">
- 				</div>
-				<h3 class="dao-team-name">
-					Gonzalo Diaz<br>
-					<span class="dao-team-pos">Senior Developer</span> 
-				</h3>
-		     	</div>
-		   	 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
- 				 <div class="team-thumb-img">
-					 <img class="img-responsive" src="../images/about_aj.png">
- 				</div>
-				<h3 class="dao-team-pos">
+                    <div class=" team-row col-lg-9 col-md-9 col-sm-9 col-xs-9 center-block">
+                        <div class="row">
+                            <h2>Team</h2>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="team-thumb-img">
+                                    <img class="img-responsive" src="../images/about_gonzalo.png">
+                                </div>
+                                <h3 class="dao-name">
+					Gonzalo Diaz</h3>
+                                <h3 class="dao-position">Senior Developer</h3>
+                                </h3>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="team-thumb-img">
+                                    <img class="img-responsive" src="../images/about_aj.png">
+                                </div>
+                                <h3 class="dao-name">
 					Anthony Williams
-					<br>
-					<span class="dao-team-name">
-						Project Manager</span>
-				</h3>
-		         </div>
-		   	 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
- 				 <div class="team-thumb-img">
-					 <img class="img-responsive" src="../images/about_andrej.png">
- 				</div>
-				<h3 class="dao-team-pos">
-					Andrej Novikov<br>
-					<span class="dao-team-name">
-					Full-stack Developer</span>
-				</h3>
-		         </div>
-		   	 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
- 				 <div class="team-thumb-img">
-					 <img class="img-responsive" src="../images/about_asia.png">
- 				</div>
-				<h3 class="dao-team-name">
-					Asia Bradlee<br>
-					<span "dao-team-pos">
+					</h3>
+                                <h3 class="dao-position">
+						Project Manager</h3>
+                                </h3>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="team-thumb-img">
+                                    <img class="img-responsive" src="../images/about_andrej.png">
+                                </div>
+                                <h3 class="dao-name">
+					Andrej Novikov</h3>
+                                <h3 class="dao-position">
+					Full-stack Developer</h3>
+                                </h3>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="team-thumb-img">
+                                    <img class="img-responsive" src="../images/about_asia.png">
+                                </div>
+                                <h3 class="dao-name">
+					Asia Bradlee<h3>
+					<h3 class="dao-position">
 						Social Media
-					</span>
-				</h3>
-		         </div>
-		   	 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
- 				 <div class="team-thumb-img">
-					 <img class="img-responsive" src="../images/about_paul.png">
- 				</div>
-				<h3 class="dao-team-pos">
-					Paul Mould<br>
-					<span class="dao-team-name">
-					Developer</span>
-				</h3>
-		         </div>
-		   	 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
- 				 <div class="team-thumb-img">
-					 <img class="img-responsive" src="../images/about_hargun.png">
- 				</div>
-				<h3 class="dao-team-name">
-					Hargun Kalsi <br> 
-					<span class="dao-team-pos">Administrative Support</span> 
-				</h3>
-		         </div>
+					</h3>
+                                </h3>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="team-thumb-img">
+                                    <img class="img-responsive" src="../images/about_paul.png">
+                                </div>
+                                <h3 class="dao-name">
+					Paul Mould</h3>
+                                <h3 class="dao-position">
+					Developer</h3>
+                                </h3>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="team-thumb-img">
+                                    <img class="img-responsive" src="../images/about_hargun.png">
+                                </div>
+                                <h3 class="dao-name">
+					Hargun Kalsi </h3>
+                                <h3 class="dao-position">Administrative Support</h3>
+                                </h3>
+                            </div>
 
 
 
-		 </div>
-		     </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
         <section id="about-row4-section" class="section border-sec">
-        <div class="container">
+            <div class="container">
                 <div class="row">
-			<div class=" team-row col-lg-9 col-md-9 col-sm-6 col-xs-10 col-offset-1 center-block">
-				<div class="Advisors">
-					<h2>Advisors</h2>
-		   	 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
- 				 <div class="team-thumb-img">
-					 <img class="img-responsive" src="../images/about_jo.png">
- 				</div>
-				<h3 class="dao-team-name">
-					Jo Cooper<br>
-					<span "dao-team-pos">
+                    <div class=" team-row col-lg-9 col-md-9 col-sm-6 col-xs-10 col-offset-1 center-block">
+                        <div class="Advisors">
+                            <h2>Advisors</h2>
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                <div class="team-thumb-img">
+                                    <img class="img-responsive" src="../images/about_jo.png">
+                                </div>
+                                <h3 class="dao-name">
+					Jo Cooper</h3>
+                                <h3 class="dao-position">
 						Design Advisor
-					</span>
-					
-				</h3>
-		         </div>
-		   	 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
- 				 <div class="team-thumb-img">
-					 <img class="img-responsive" src="../images/about_namrata.png">
- 				</div>
-				<h3 class="dao-team-name">
-					Namrata Maguire<br>
-					<span class="dao-team-pos">Financial Advisor</span> 
-				</h3>
-		         </div>
-		   	 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
- 				 <div class="team-thumb-img">
-					 <img class="img-responsive" src="../images/about_womble-carlyle.png">
- 				</div>
-				<h3 class="dao-team-name">
-					Womble &amp; Carlyle<br>
-					<span class="dao-team-pos">Legal Advisors</span> 
-				</h3>
+					</h3>
+
+                                </h3>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                <div class="team-thumb-img">
+                                    <img class="img-responsive" src="../images/about_namrata.png">
+                                </div>
+                                <h3 class="dao-name">
+					Namrata Maguire</h3>
+                                <h3 class="dao-position">Financial Advisor</h3>
+                                </h3>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                <div class="team-thumb-img">
+                                    <img class="img-responsive" src="../images/about_womble-carlyle.png">
+                                </div>
+                                <h3 class="dao-name">
+					Womble &amp; Carlyle</h3>
+                                <h3 class="dao-position">Legal Advisors</h3>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about-row4.5-section" class="section border-sec">
+            <div class="container">
+                <div class="row">
+                    <div class=" team-row col-lg-9 col-md-9 col-sm-6 col-xs-10 col-offset-1 center-block">
+                        <div class="Investors">
+                            <h2>Investors</h2>
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                <div class="team-thumb-img">
+                                    <img class="img-responsive" src="../images/about_harold.png">
+                                </div>
+                                <h3 class="dao-name">
+					Harold Hochberger</h3>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                <div class="team-thumb-img">
+                                    <img class="img-responsive" src="../images/about_jon.png">
+                                </div>
+                                <h3 class="dao-name">
+					Jon Miller</h3>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                <div class="team-thumb-img">
+                                    <img class="img-responsive" src="../images/about_andrew.png">
+                                </div>
+                                <h3 class="dao-name">
+					Dr. Andrew Wong
 		         </div>
 		 </div>
 		     </div>
@@ -242,43 +287,60 @@
 							<p class="center-text">This website wouldn't be possible without the open source community and generous licensing from other creative professionals. Photos used on this site are from <a href="http://flickr.com">Flickr</a>, using the <a href="https://creativecommons.org/licenses/by/2.0">Creative Commons Attribution Licnese, v2.0</a>. Icons we used are available under an attribution license on <a href="http://thenounproject.com">The Noun Project</a>. Individual authors of assets used around the site are noted below:</p>
 
 							<h3>Photos</h3>
-							<p class="center-text">Cityscape: <a href="https://www.flickr.com/photos/31246066@N04/4484988619">Ian Sane</a></p>
-							<p class="center-text">Front page: <a href="https://www.flickr.com/photos/zachd1_618/8544069414">Zach Dischner</a></p>
-							<p class="center-text">Sunrise:	<a href="https://www.flickr.com/photos/126057645@N04/14749473449">Izu Navi</a></p>
+                                <p class="center-text">Cityscape: <a href="https://www.flickr.com/photos/31246066@N04/4484988619">Ian Sane</a>
+                                </p>
+                                <p class="center-text">Front page: <a href="https://www.flickr.com/photos/zachd1_618/8544069414">Zach Dischner</a>
+                                </p>
+                                <p class="center-text">Sunrise: <a href="https://www.flickr.com/photos/126057645@N04/14749473449">Izu Navi</a>
+                                </p>
 
-							<h3>Icons</h3>
-							<p class="center-text">Barricade: <a href="https://iconsmind.com">Icons Mind Team</a></p>
-							<p class="center-text">Bullhorn: <a href="http://www.amychiangworks.com">Amy Chiang</a></p>
-							<p class="center-text">Flag: <a href="http://linhpham.me">Pham Thi Dieu Linh</a></p>
-							<p class="center-text">Happy Faces: <a href="http://mailchimp.com">Mailchimp Team</a></p>
-							<p class="center-text">Pen:	<a href="http://www.nozzman.com">Bram Van Rijen</a></p>
-							<p class="center-text">People: <a href="http://cargocollective.com/daraullrich">Dara Ullrich</a></p>
-							<p class="center-text">Profile:	<a href="http://www.ryanbeck.me">Ryan Beck</a></p>
-							<p class="center-text">Map:	<a href="https://dribbble.com/Sesi">Ema Dimitrova</a></p> 
-							<p class="center-text">Shopfront: <a href="http://www.christianwad.dk">Christian Wad</a></p> 
-							<p class="center-text">Tree: <a href="http://thenounproject.com/brian.hurshman">Brian Hurshman</a></p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-	 </div>
+                                <h3>Icons</h3>
+                                <p class="center-text">Barricade: <a href="https://iconsmind.com">Icons Mind Team</a>
+                                </p>
+                                <p class="center-text">Bullhorn: <a href="http://www.amychiangworks.com">Amy Chiang</a>
+                                </p>
+                                <p class="center-text">Flag: <a href="http://linhpham.me">Pham Thi Dieu Linh</a>
+                                </p>
+                                <p class="center-text">Happy Faces: <a href="http://mailchimp.com">Mailchimp Team</a>
+                                </p>
+                                <p class="center-text">Pen: <a href="http://www.nozzman.com">Bram Van Rijen</a>
+                                </p>
+                                <p class="center-text">People: <a href="http://cargocollective.com/daraullrich">Dara Ullrich</a>
+                                </p>
+                                <p class="center-text">Profile: <a href="http://www.ryanbeck.me">Ryan Beck</a>
+                                </p>
+                                <p class="center-text">Map: <a href="https://dribbble.com/Sesi">Ema Dimitrova</a>
+                                </p>
+                                <p class="center-text">Shopfront: <a href="http://www.christianwad.dk">Christian Wad</a>
+                                </p>
+                                <p class="center-text">Tree: <a href="http://thenounproject.com/brian.hurshman">Brian Hurshman</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        </div>
 
         <footer id="footer" class="section">
             <div class="container">
                 <div class="row">
                     <div id="footer-row" class="col-lg-12 col-md-12- col-sm-12-col-xs-12">
                         <div class="footer-links">
-                           <li><a href="../terms">Terms &amp; Conditions</a></li>
-                           <li><a href="../privacy">Privacy Policy</a></li>
-                           <li><a href="../vision">Investors</a></li>
-                           <li><a href="mailto:team@daocloud.com?Subject=Daocloud%2C%20I%27d%20Love%20To%20Get%20In%20Touch%20With%20You%20Guys%21">Contact Daocloud</a></li>
-                        </div>            
-
-                            </div>
+                            <li><a href="../terms">Terms &amp; Conditions</a>
+                            </li>
+                            <li><a href="../privacy">Privacy Policy</a>
+                            </li>
+                            <li><a href="../vision">Investors</a>
+                            </li>
+                            <li><a href="mailto:team@daocloud.com?Subject=Daocloud%2C%20I%27d%20Love%20To%20Get%20In%20Touch%20With%20You%20Guys%21">Contact Daocloud</a>
+                            </li>
                         </div>
+
                     </div>
-   
+                </div>
+            </div>
+
         </footer>
 
         <!--Bootstrap-->
@@ -287,38 +349,39 @@
         <script>
         $(document).ready(function($) {
             console.log("JQuery works!!!");
-        });     
+        });
         </script>
 
         <!--Accordion-->
-		<script>
-		$(document).ready(function() {
-		    function close_accordion_section() {
-		        $('.accordion .accordion-section-title').removeClass('active');
-		        $('.accordion .accordion-section-content').slideUp(300).removeClass('open');
-		    }
-	 
-		    $('.accordion-section-title').click(function(e) {
-		        // Grab current anchor value
-		        var currentAttrValue = $(this).attr('href');
-	 
-		        if($(e.target).is('.active')) {
-				
-		            close_accordion_section();
-			    
-		        }else {
-				
-		            close_accordion_section();
-	 
-		            // Add active class to section title
-		            $(this).addClass('active');
-		            // Open up the hidden content panel
-		            $('.accordion ' + currentAttrValue).slideDown(300).addClass('open'); 
-		        }
-	 
-		        e.preventDefault();
-		    });
-		});
-		</script>       
-    </body>
+        <script>
+        $(document).ready(function() {
+            function close_accordion_section() {
+                $('.accordion .accordion-section-title').removeClass('active');
+                $('.accordion .accordion-section-content').slideUp(300).removeClass('open');
+            }
+
+            $('.accordion-section-title').click(function(e) {
+                // Grab current anchor value
+                var currentAttrValue = $(this).attr('href');
+
+                if ($(e.target).is('.active')) {
+
+                    close_accordion_section();
+
+                } else {
+
+                    close_accordion_section();
+
+                    // Add active class to section title
+                    $(this).addClass('active');
+                    // Open up the hidden content panel
+                    $('.accordion ' + currentAttrValue).slideDown(300).addClass('open');
+                }
+
+                e.preventDefault();
+            });
+        });
+        </script>
+</body>
+
 </html>
