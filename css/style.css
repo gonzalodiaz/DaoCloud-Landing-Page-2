@@ -154,6 +154,17 @@ section {
 button {
     background-color: inherit;
 }
+.button-daocloud {
+    padding: 8px 25px;
+    background-color: transparent;
+    border: 2px solid #0a3153;
+    color: #0a3153;
+    border-radius: 4px;
+    top: 5px;
+    font-weight: bold;
+    transition: all .2s linear;
+    line-height: inherit;
+}
 #signup-row .btn a {
     background-color: #fff;
     border: 2px solid #fff;
@@ -306,17 +317,6 @@ header.navbar {
 .navbar-brand {
     padding: 0px 15px;
 }
-.navbar-nav .button-daocloud {
-    padding: 8px 25px;
-    background-color: transparent;
-    border: 2px solid #0a3153;
-    color: #0a3153;
-    border-radius: 4px;
-    top: 5px;
-    font-weight: bold;
-    transition: all .2s linear;
-    line-height: inherit;
-}
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #888;
 }
@@ -337,6 +337,10 @@ header.navbar {
     margin: 9px 0;
     overflow: hidden;
     background-color: #e5e5e5;
+}
+.nav .button-daocloud {
+    line-height: inherit;
+    padding: 8px 25px;
 }
 /***********************************************************************/
 /********************** Navigation Media Queries ***********************/
@@ -547,6 +551,12 @@ header.navbar {
 }
 #row1-section::before {
     padding-top: 0px;
+}
+#row6-section {
+    text-align: center;
+}
+#row6-section .button-daocloud {
+    padding: 15px 60px;
 }
 /************************************************************/
 /************** Pro Page Media Queries **********************/
