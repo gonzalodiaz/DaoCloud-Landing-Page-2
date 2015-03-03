@@ -310,6 +310,9 @@ header.navbar {
     top: 7px;
     border-right: 1px solid #0a3153;
 }
+.nav > li span.no-border {
+    border-right: none;
+}
 .nav > li {
     margin-bottom: 5px;
     height: 50px;
