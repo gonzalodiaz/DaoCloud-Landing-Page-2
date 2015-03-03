@@ -847,10 +847,8 @@ header.navbar {
 /*************************************************************************/
 
 #reg-row1-section {
-    background: url("../images/hero-background-regions.jpg") no-repeat;
     height: 425px;
     background-size: cover;
-    color: white;
 }
 /**************** Regions Form Section Sytles **************** */
 
@@ -859,6 +857,13 @@ header.navbar {
     background-color: #DAEEFC;
     border-radius: 12px;
     border: 1px solid #0A3153;
+}
+#reg-row2-section .frm-btn-con, #reg-row5-section .reg-form .frm-btn-con {
+    width: 40%;
+}
+#reg-row2-section .reg-form button, #reg-row5-section .reg-form button {
+    font-size:28px;
+    height:66px!important;
 }
 #reg-row2-section .reg-form {
     margin-top: -220px;
