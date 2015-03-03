@@ -850,7 +850,7 @@ header.navbar {
 /*************************************************************************/
 
 #reg-row1-section {
-    height: 425px;
+    height: 135px;
     background-size: cover;
 }
 /**************** Regions Form Section Sytles **************** */
@@ -869,7 +869,6 @@ header.navbar {
     height:66px!important;
 }
 #reg-row2-section .reg-form {
-    margin-top: -220px;
     height: 390px;
 }
 #reg-row5-section {
