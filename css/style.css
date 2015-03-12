@@ -135,7 +135,7 @@ section h1, h2, h3, h4 {
     padding: 45px;
 }
 section {
-    padding: 45px 0px;
+    padding: 30px 0px;
 }
 .border-sec {
     border-bottom: 1px solid #0a3153;
@@ -1109,6 +1109,9 @@ header.navbar {
     width: 100%;
     height: 100%;
 }
+#pricing-row1-section {
+    padding-top: 60px;
+}
 #pricing-row3-section .inner-container {
     width: 57vw;
     margin: 0 auto;
@@ -1126,10 +1129,13 @@ header.navbar {
     fill: red;
 }
 #pricing-row2-section, #pricing-row3-section {
-    padding: 0;
+    
 }
 .single-title {
     margin: 35px auto 15px auto;
+}
+#pricing-row3-section {
+    padding-top: 0;
 }
 #pricing-row3-section #timeline {
     text-align: center;
